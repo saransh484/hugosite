@@ -1,0 +1,4 @@
+baseURL = 'https://saransh.qzz.io/'
+languageCode = 'en-us'
+title = 'Heya'
+theme = 'digio'

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>⋅˚₊‧ ୨ thoughts index ୧ ‧₊˚ ⋅ on Heya</title>
+		<link>https://saransh.qzz.io/write/</link>
+		<description>Recent content in ⋅˚₊‧ ୨ thoughts index ୧ ‧₊˚ ⋅ on Heya</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 15 Jan 2023 09:00:00 -0700</lastBuildDate>
+		
+			<atom:link href="https://saransh.qzz.io/write/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>example1</title>
+				<link>https://saransh.qzz.io/write/test/</link>
+				<pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+				<guid>https://saransh.qzz.io/write/test/</guid>
+				<description>&lt;p&gt;Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;unordered list item 1&lt;/li&gt;&#xA;&lt;li&gt;unordered list item 2&lt;/li&gt;&#xA;&lt;li&gt;unordered list item 3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;ordered list&lt;/li&gt;&#xA;&lt;li&gt;ordered list&lt;/li&gt;&#xA;&lt;li&gt;ordered list&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; to do list&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; to do list&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>example2</title>
+				<link>https://saransh.qzz.io/write/test2/</link>
+				<pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+				<guid>https://saransh.qzz.io/write/test2/</guid>
+				<description>&lt;p&gt;Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;unordered list item 1&lt;/li&gt;&#xA;&lt;li&gt;unordered list item 2&lt;/li&gt;&#xA;&lt;li&gt;unordered list item 3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;ordered list&lt;/li&gt;&#xA;&lt;li&gt;ordered list&lt;/li&gt;&#xA;&lt;li&gt;ordered list&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; to do list&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; to do list&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
