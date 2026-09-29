@@ -1,0 +1,29 @@
+baseURL = 'https://saransh.qzz.io/'
+languageCode = 'en-us'
+title = 'Heya'
+
+theme = ['github.com/hugo-themes/nerdy']
+
+[[module.imports]]
+  path = 'github.com/hugo-themes/nerdy'
+
+[build]
+  [build.buildStats]
+    enable = true
+[security]
+  [security.exec]
+    allow = ['^(dart-)?sass$', '^go$', '^git$', '^node$', '^postcss$', '^tailwindcss$']
+
+[params]
+  author = "Saransh"
+  description = "Self-hosted enthusiast and developer"
+  avatar = "https://avatars.githubusercontent.com/u/57566717" # Place this in your local ~/hugo/static/images/ folder
+
+  # Social links typically shown in the footer or bio
+  [[params.social]]
+    name = "github"
+    url = "https://github.com"
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com"
+

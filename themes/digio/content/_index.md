@@ -1,5 +1,5 @@
 +++
-portraitImage = "/portrait.png"
+portraitImage = "/sash-qzz-site.png"
 
 introTitle = "Hey there Sash here!"
 introBody = "TBD"
