@@ -4,15 +4,26 @@ description: Professional work history
 quick: true
 weight: 30
 roles:
-  - title: Senior Software Engineer
-    company: Tech Innovators Inc.
-    period: Jan 2022 - Present
+  - title: DevOps Engineer
+    company: Flipr.ai
+    period: Jun 2024 - Jul 2026
     highlights:
-      - Led the migration of legacy monolithic architecture to microservices.
-      - Mentored junior developers and established CI/CD best practices.
-  - title: Full-Stack Developer
-    company: Creative Solutions Agency
-    period: Mar 2019 - Dec 2021
+      - Managed AWS EKS infrastructure across DEV, SIT, UAT, and PROD environments using Terraform.
+      - Implemented Kubernetes autoscaling with Karpenter, HPA, and KEDA to improve workload scalability and resource utilization.
+      - Built and maintained CI/CD pipelines using GitHub Actions, including self-hosted runner scale sets.
+      - Automated infrastructure and operational workflows, reducing manual intervention by approximately 90%.
+      - Optimized cloud infrastructure and workloads, contributing to approximately 30% infrastructure cost reduction.
+      - Implemented observability using Prometheus, Grafana, and Loki for Kubernetes and application monitoring.
+      - Designed event-driven AWS workflows using S3, SQS, and Lambda for automated processing.
+      - Worked on database migrations and production infrastructure changes with a focus on reliability and minimal downtime.
+
+  - title: DevOps Engineer
+    company: RWS Group
+    period: Jul 2026 - Present
     highlights:
-      - Developed customized React-based web applications for diverse clients.
-      - Designed and optimized PostgreSQL databases handling over 1M+ daily queries.
+      - Design and automate cloud infrastructure using Terraform across AWS and Azure environments.
+      - Work on Azure networking, App Services, Azure SQL, Key Vault, Storage Accounts, Data Factory, and private endpoints.
+      - Implement infrastructure security using NSGs, managed identities, RBAC, and private networking.
+      - Develop reusable Terraform infrastructure following modular and environment-aware patterns.
+      - Troubleshoot cloud infrastructure, networking, CI/CD, and deployment issues across client environments.
+      - Contribute to application modernization and cloud architecture initiatives.

@@ -4,32 +4,69 @@ description: My technical stack
 quick: true
 weight: 20
 categories:
-  - key: core_languages
+  - key: cloud
     items:
-      - JavaScript
-      - TypeScript
-      - Python
-      - HTML/CSS
-  - key: frontend
+      - AWS
+      - Azure
+      - EC2
+      - EKS
+      - AKS
+      - VPC / VNet
+      - IAM / RBAC
+
+  - key: infrastructure_as_code
     items:
-      - React.js
-      - Next.js
-      - Tailwind CSS
-      - Redux
-  - key: backend
+      - Terraform
+      - Ansible
+      - Infrastructure Automation
+      - Modular Infrastructure
+
+  - key: containers_orchestration
     items:
-      - Node.js
-      - Express
-      - Django
-      - REST APIs
-  - key: database
+      - Docker
+      - Kubernetes
+      - Helm
+      - Kubernetes Networking
+      - Gateway API
+
+  - key: ci_cd
+    items:
+      - GitHub Actions
+      - Jenkins
+      - Azure DevOps
+      - Self-hosted Runners
+      - CI/CD Automation
+
+  - key: observability
+    items:
+      - Grafana
+      - Loki
+      - Prometheus
+      - Application Monitoring
+      - Logging
+
+  - key: networking_security
+    items:
+      - Linux / Bash
+      - DNS
+      - Reverse Proxies
+      - Load Balancing
+      - TLS / SSL
+      - Cloud Networking
+
+  - key: databases_storage
     items:
       - PostgreSQL
-      - MongoDB
-      - Redis
-  - key: devops_tools
+      - MySQL
+      - Amazon RDS
+      - CloudNativePG
+      - S3
+      - Azure Storage
+
+  - key: tools
     items:
       - Git
-      - Docker
-      - AWS
-      - Linux / Bash
+      - GitHub
+      - Bitbucket
+      - Azure DevOps
+      - Tailscale

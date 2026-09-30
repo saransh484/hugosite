@@ -4,32 +4,75 @@ description: View my portfolio projects
 quick: true
 weight: 40
 items:
-  - name: E-Commerce Platform API
-    type: Work
-    role: Technical lead — initial design and development
-    tech:
-      - Go
-      - PostgreSQL
-      - Docker
-    description: A robust REST API for a scalable e-commerce platform featuring JWT
-      authentication, Stripe integration, and advanced caching.
-    url: https://github.com/gopher/ecommerce-api
-  - name: Real-Time Collaboration Tool
-    type: Work
-    role: Co-maintainer
-    tech:
-      - React
-      - WebSockets
-      - Redis
-    description: A web-based workspace allowing multiple users to edit documents
-      simultaneously with low latency.
-    url: https://demo.example.com/collab
-  - name: CLI Task Manager
+  - name: Kubernetes Platform on AWS
     type: Personal
-    role: Creator & maintianer
+    role: Infrastructure Engineer
     tech:
-      - Go
-      - SQLite
-    description: A terminal-based productivity tool to manage daily tasks, track
-      time, and generate reports.
-    url: https://github.com/gopher/cli-task
+      - AWS
+      - EKS
+      - Terraform
+      - Helm
+      - GitHub Actions
+      - Karpenter
+      - Prometheus
+      - Grafana
+      - Loki
+    description: A production-style Kubernetes platform exploring infrastructure
+      automation, autoscaling, CI/CD, observability, and cloud-native operations.
+    url: ""
+
+  - name: Self-Hosted Homelab
+    type: Personal
+    role: Builder & Maintainer
+    tech:
+      - Linux
+      - Docker
+      - Tailscale
+      - NFS
+      - Nginx
+      - Cloudflare
+    description: A lightweight self-hosted infrastructure environment running
+      containerized services across a home server and cloud VM, connected through
+      a private mesh network.
+    url: ""
+
+  - name: Terraform Cloud Infrastructure
+    type: Personal
+    role: Infrastructure Engineer
+    tech:
+      - Terraform
+      - AWS
+      - Azure
+      - GitHub Actions
+      - Azure DevOps
+    description: Reusable infrastructure-as-code modules for provisioning cloud
+      networking, compute, security, databases, storage, and monitoring with
+      environment-aware configuration.
+    url: ""
+
+  - name: GitHub Actions Runner Infrastructure
+    type: Personal
+    role: Builder
+    tech:
+      - GitHub Actions
+      - Kubernetes
+      - AWS EKS
+      - Terraform
+      - Docker
+    description: Self-hosted GitHub Actions runner infrastructure designed to
+      provision and scale ephemeral CI workloads on Kubernetes.
+    url: ""
+
+  - name: Cloud Observability Stack
+    type: Personal
+    role: Builder
+    tech:
+      - Grafana
+      - Prometheus
+      - Loki
+      - Kubernetes
+      - Docker
+    description: Centralized monitoring and logging stack for infrastructure and
+      containerized workloads, providing metrics, logs, dashboards, and operational
+      visibility.
+    url: ""

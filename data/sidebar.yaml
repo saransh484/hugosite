@@ -1,30 +1,27 @@
 profile:
-  name: "Mr. Gopher"
-  title: Backend Developer
-  avatar: "images/gopher.png"
-  description: Building scalable systems. Obsessed with clean code and modern web
-    architectures.
+  name: "Saransh"
+  title: DevOps Engineer
+  avatar: "images/saransh.jpg"
+  description: I build infrastructure that just works.
   status:
     label: Status
-    value: Open to Senior Roles
-    preference_label: Pref
-    preference: 100% Remote / Async
+    value: Open to DevOps/SRE Roles
   links:
     - icon: website
-      label: nerdy.hugo-themes.com
-      url: https://nerdy.hugo-themes.com
+      label: saransh.qzz.io
+      url: https://saransh.qzz.io/
     - icon: github
-      label: github.com/gopher
-      url: https://github.com/gopher
+      label: github.com/saransh484
+      url: https://github.com/saransh484
     - icon: linkedin
-      label: linkedin.com/in/gopher
-      url: https://linkedin.com/in/gopher
+      label: linkedin.com/in/saransh484
+      url: https://linkedin.com/in/saransh484
     - icon: x
-      label: "@gopher"
-      url: https://x.com/gopher
+      label: "@saranshEXE"
+      url: https://x.com/saranshEXE
     - icon: mail
-      label: hello@gopher.dev
-      url: mailto:hello@gopher.dev
+      label: saranshbhatnagar@proton.me
+      url: mailto:saranshbhatnagar@proton.me
 
 sections:
   - id: profile-stats
@@ -32,25 +29,25 @@ sections:
     title: Profile Stats
     items:
       - label: Experience
-        value: 5+ yrs
+        value: 3+ yrs
         accent: emerald
       - label: Focus
-        value: Scalable Backends
+        value: Infra That Just Works
         accent: cyan
       - label: Debugging
         value: Persistent
         accent: amber
-      - label: Architecture
-        value: Pragmatic
+      - label: Crashloop
+        value: Backoff
         accent: purple
   - id: core-stack
     type: tags
     title: Core Stack
     items:
-      - Go
+      - Python
       - Docker
       - Kubernetes
-      - PostgreSQL
+      - Linux
       - AWS
-      - GCP
+      - Azure
       - Terraform

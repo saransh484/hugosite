@@ -3,16 +3,18 @@ label: Contact
 description: How to reach me
 quick: true
 weight: 50
-intro: Let's build something awesome together!
-email: hello@gopher.dev
+intro: Have an interesting infrastructure problem, project, or opportunity?
+  I'd love to hear about it.
+email: saranshbhatnagar@proton.me
 links:
   - label: GitHub
-    text: https://github.com/gopher
-    url: https://github.com/gopher
+    text: https://github.com/saransh484
+    url: https://github.com/saransh484
   - label: LinkedIn
-    text: https://linkedin.com/in/gopher
-    url: https://linkedin.com/in/gopher
+    text: https://linkedin.com/in/saransh484
+    url: https://linkedin.com/in/saransh484
   - label: X
-    text: "@gopher"
-    url: https://x.com/gopher
-outro: Drop me a line or run the commands above to explore more.
+    text: "@saranshEXE"
+    url: https://x.com/saranshEXE
+outro: Whether it's cloud infrastructure, automation, Kubernetes, or something
+  that just refuses to work, feel free to reach out.

@@ -3,13 +3,17 @@ label: About
 description: Information about me
 quick: true
 weight: 10
-greeting: Hello, World!
-person_name: "Mr. Gopher"
-summary: I specialize in writing clean, efficient, and robust code.
+greeting: echo Heya!
+person_name: "Saransh"
+summary: I build reliable, automated infrastructure for modern applications.
 details:
-  - My journey in software development started with a fascination for how things
-    work under the hood. Today, I build scalable web applications, design
-    RESTful APIs, and occasionally tinker with system-level programming.
+  - My journey in DevOps started with a curiosity about what happens behind the
+    scenes when software goes from code to production. Today, I work with cloud
+    infrastructure, Kubernetes, Terraform, CI/CD, and observability to build
+    systems that are scalable, reproducible, and resilient.
+  - I enjoy understanding systems from the ground up — from networking and
+    security to deployments, automation, and the inevitable moment when
+    something breaks at 2 AM.
 quote:
-  text: First, solve the problem. Then, write the code.
-  author: John Johnson
+  text: Make it work, make it right, make it fast.
+  author: Kent Beck
