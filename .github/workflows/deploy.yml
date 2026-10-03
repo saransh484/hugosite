@@ -48,6 +48,11 @@ jobs:
           export PATH="$PWD/node_modules/.bin:$PATH"
           hugo --minify
 
+      - name: Install Rsync
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y rsync
+
       - name: Deploy to GCP VM via Rsync
         env:
           SSH_PRIVATE_KEY: ${{ secrets.GCP_SSH_PRIVATE_KEY }}
