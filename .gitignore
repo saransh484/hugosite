@@ -12,3 +12,6 @@ resources/_gen/
 !.dev.vars.example
 .env*
 !.env.example
+
+# Local documentation & guides
+POSTING_GUIDE.md

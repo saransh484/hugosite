@@ -1,4 +1,4 @@
 items:
   #- featured-projects
-  #- recent-posts
+  - recent-posts
   #- activity-logs
