@@ -34,6 +34,8 @@ module:
       source: hugo_stats.json
       target: assets/notwatching/hugo_stats.json
 security:
+  node:
+    disable: true
   exec:
     allow:
       - '^(dart-)?sass$'

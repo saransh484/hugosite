@@ -25,7 +25,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
           cache: 'npm'
 
       - name: Install NPM Dependencies
@@ -48,18 +48,14 @@ jobs:
           export PATH="$PWD/node_modules/.bin:$PATH"
           hugo --minify
 
-      - name: Deploy to GCP VM via Rsync
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.GCP_SSH_PRIVATE_KEY }}
-          REMOTE_HOST: ${{ secrets.GCP_VM_HOST }}
-          REMOTE_USER: ${{ secrets.GCP_VM_USER }}
-          TARGET_DIR: ${{ secrets.GCP_TARGET_DIR }}
-        run: |
-          # Setup SSH
-          mkdir -p ~/.ssh
-          echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_ed25519_deploy
-          chmod 600 ~/.ssh/id_ed25519_deploy
-          ssh-keyscan -H "$REMOTE_HOST" >> ~/.ssh/known_hosts
-
-          # Sync public build output to the target web server directory
-          rsync -avz --delete -e "ssh -i ~/.ssh/id_ed25519_deploy" public/ "$REMOTE_USER@$REMOTE_HOST:$TARGET_DIR"
+      - name: Deploy to GCP VM via SCP
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.GCP_HOST || secrets.GCP_VM_HOST }}
+          username: ${{ secrets.GCP_USERNAME || secrets.GCP_VM_USER }}
+          key: ${{ secrets.GCP_SSH_KEY || secrets.GCP_SSH_PRIVATE_KEY }}
+          port: 22
+          source: "public/*"
+          target: ${{ secrets.GCP_TARGET_DIR || '/home/saranshplay/hugo/public' }}
+          strip_components: 1
+          rm: true
