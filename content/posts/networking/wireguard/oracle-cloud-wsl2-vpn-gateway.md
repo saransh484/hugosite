@@ -1,6 +1,6 @@
 ---
 title: "Building a WireGuard VPN Gateway on an Oracle Cloud VM with WSL2"
-date: 2026-10-04
+date: 2026-10-04T02:00:00+05:30
 draft: false
 subject: "Networking"
 topic: "WireGuard"

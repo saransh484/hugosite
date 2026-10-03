@@ -46,7 +46,7 @@ jobs:
       - name: Build Hugo Site
         run: |
           export PATH="$PWD/node_modules/.bin:$PATH"
-          hugo --minify
+          hugo --minify --buildFuture
 
       - name: Deploy to GCP VM via SCP
         uses: appleboy/scp-action@v0.1.7
