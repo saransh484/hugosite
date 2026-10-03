@@ -1,6 +1,6 @@
 ---
-title: Documentation
-description: Learn how to install, organize, and customize a Nerdy site.
+title: Posts
+description: Thoughts, architectures, and technical writeups.
 type: posts
 cascade:
   - type: posts
